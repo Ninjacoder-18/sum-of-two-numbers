@@ -5,10 +5,12 @@
 
 int main(){
 
-  int a=20, b=30;
+  float a, b;
+  
+  scanf("%f %f\n", &a, &b);
 
-  int sum = a+b;
+  float sum = a+b;
 
-  printf("%d", sum);
+  printf("%f", sum);
 
 }
