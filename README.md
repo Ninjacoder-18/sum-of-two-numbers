@@ -5,7 +5,9 @@
 
 int main(){
 
-  int a=20, b=30;
+  int a, b;
+  
+   scanf("%d %d\n", &a, &b);
 
   int sum = a+b;
 
